@@ -6,7 +6,7 @@ import Dimensions from 'Dimensions';
 
 const Util = {
   ratio: PixelRatio.get(),
-  pixel: 1 / PixelRatio.get(),
+  pixel: 1 / PixelRatio.get(), //1物理px对应的(css)px
   size: {
     width: Dimensions.get('window').width,
     height: Dimensions.get('window').height
